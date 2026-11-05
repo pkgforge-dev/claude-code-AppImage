@@ -14,6 +14,7 @@ export MAIN_BIN=claude
 # Deploy dependencies
 quick-sharun ./AppDir/bin/*
 echo 'DISABLE_AUTOUPDATER=1' >> ./AppDir/.env
+echo 'Terminal=true' >> ./AppDir/claude.desktop
 
 # Additional changes can be done in between here
 
